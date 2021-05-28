@@ -1,4 +1,7 @@
 {
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "GitHub Light",
+    "workbench.preferredDarkColorTheme": "GitHub Dark",
     "workbench.startupEditor": "none",
     "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
@@ -10,8 +13,8 @@
     "editor.cursorBlinking": "smooth",
     "editor.cursorWidth": 1,
     "editor.cursorSmoothCaretAnimation": true,
-    "workbench.colorTheme": "GitHub Dark Dimmed",
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "GitHub Light",
+    "workbench.iconTheme": "city-lights-icons-vsc",
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "emmet.includeLanguages": {
@@ -73,7 +76,6 @@
     "customizeUI.activityBar": "bottom",
     "customizeUI.titleBar": "inline",
     "window.titleBarStyle": "native",
-    "workbench.statusBar.visible": false,
     "headwind.runOnSave": false,
     "headwind.prependCustomClasses": true,
     "headwind.classRegex": {
@@ -85,4 +87,11 @@
         "typescript": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)",
         "typescriptreact": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)"
     },
+    "extensions.ignoreRecommendations": true,
+    "workbench.productIconTheme": "fluent-icons",
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.statusBar.visible": false,
+    "workbench.editor.showTabs": false,
 }
